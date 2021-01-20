@@ -86,12 +86,6 @@ function sendMessage(channelId, webhook) {
         default:
             bot.channels.cache.get(channelId).send('Hello here!');
     }
-    if (webhook.action === 'added') {
-        
-    } else if {
-        
-    }
-    
 }
 
 
